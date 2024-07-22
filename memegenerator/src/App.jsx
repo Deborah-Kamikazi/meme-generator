@@ -1,8 +1,9 @@
 
 import './App.css'
-
+import Meme from './meme'
 function App() {
  
+
 
   return (
     <>
@@ -11,6 +12,9 @@ function App() {
           <img src="/Troll Face.svg" alt="" className='size-9' />
           <p className='text-white font-semibold text-xl'>Meme Generator</p>
         </nav>
+        <div>
+          <Meme/>
+        </div>
    </section>
     </>
   )
