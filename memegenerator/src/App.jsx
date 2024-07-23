@@ -1,8 +1,9 @@
 
 import './App.css'
 import Meme from './meme'
+
 function App() {
- 
+  
 
 
   return (
@@ -14,6 +15,7 @@ function App() {
         </nav>
         <div>
           <Meme/>
+        
         </div>
    </section>
     </>
